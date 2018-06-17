@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Move Up the Stack</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+     @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+     @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+     @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+     body {
+       font-family: 'Droid Serif';
+     }
+     h1, h2, h3 {
+       font-family: 'Yanone Kaffeesatz';
+       font-weight: 400;
+       margin-bottom: 0;
+     }
+     .remark-slide-content h1 { font-size: 3em; }
+     .remark-slide-content h2 { font-size: 2em; }
+     .remark-slide-content h3 { font-size: 1.6em; }
+
+     a {
+       color: rgb(249, 38, 114);
+     }
+     .remark-code, .remark-inline-code {
+       font-family: 'Ubuntu Mono';
+     }
+     /* Fix 0.14.0 bug */
+     .remark-slide-content {
+       background-size: contain;
+     }
+     .inverse {
+       background: #272822;
+       color: #777872;
+       text-shadow: 0 0 20px #333;
+     }
+     .inverse h1, .inverse h2, .inverse h3 {
+       color: #f3f3f3;
+     }
+     .footnote {
+       position: absolute;
+       bottom: 3em;
+     }
+     /* Two-column layout */
+     .left-column {
+       color: #777;
+       width: 30%;
+       height: 92%;
+       float: left;
+     }
+     .left-column h2:last-of-type, .left-column h3:last-child {
+       color: #000;
+     }
+     .right-column {
+       width: 70%;
+       float: right;
+       /* padding-top: 1em; */
+     }
+     .red { color: #fa0000; }
+     .blue { color: #5FA4E8; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+layout: true
+
+---
+class: center, middle, inverse
+
+# Move Up The Stack
+
+.footnote[ Kenneth Bowen [kbowen@harris.com](mailto://kbowen@harris.com)]
+
+---
+background-image: url(assets/image/josh_long_tweet.png)
+
+---
+layout: false
+
+.left-column[
+## Let's Re-order
+]
+
+.right-column[
+- Ship software that delights .red[*]
+- Don't revel in nonesense
+- Move up the stack
+
+.footnote[.red[*] _would be a good company mission statement_]
+]
+
+---
+
+class: center, middle, inverse
+
+# Ship software that delights
+
+---
+
+.left-column[
+# 1996 Top 5 Market Cap
+]
+
+.right-column[
+- ### General Electric
+
+- ### Royal Dutch Shell
+
+- ### The Coca-Cola Company
+
+- ### Nippon Telegraph and Telephone
+
+- ### Exxon Mobil
+]
+
+---
+.left-column[
+# 2006 Top 5 Market Cap
+]
+
+.right-column[
+- ### Exxon Mobil
+- ### General Electric
+- ### Microsoft
+- ### Citigroup
+- ### Gazprom
+]
+
+---
+.left-column[
+# 2016 Top 5 Market Cap
+]
+
+.right-column[
+- ### Apple Inc
+- ### Alphabet (Google)
+- ### Microsoft
+- ### Amazon Inc
+- ### Facebook
+]
+
+---
+class: center, middle
+layout: true
+
+---
+
+# Software Companies
+
+---
+
+# From cost center to...
+
+---
+
+background-image: url('assets/image/software_eats_world.png')
+
+---
+
+## Software \*IS\* the Competitive Advantage
+
+---
+
+## Driving Revenue
+
+---
+
+## And, ultimately, business success
+
+---
+
+# Not _ANY_ Company
+
+---
+
+# Companies That Ship Software
+
+---
+
+# At Scale
+
+---
+
+_Almost all of contemporary software engineering is focused on the singular goal of improving time-to-market._
+
+---
+
+.left[### _"You are either building a software business, or losing to someone who is"_]
+
+.right[-- Cornelia Davis. Pivotal]
+
+---
+class: center, middle, inverse
+
+# Avoiding Nonsense
+
+---
+layout: false
+
+# Example Nonesense
+
+--
+
+- Writing your own protocols
+
+--
+
+- Ignoring industry standards and best practices
+
+--
+
+- Making up your own process
+
+--
+
+- Allowing tech debt and skills gaps to overwhelm
+
+--
+
+- failure to automate low-value tasks
+
+---
+
+# AND...
+
+---
+class: center, middle
+
+# Not Moving Up the Stack .red[*]
+
+.footnote[.red[*] the _right_ stack]
+
+---
+
+background-image: url(assets/image/enterprise_devops.jpg)
+
+---
+class: center, middle, inverse
+
+# Move Up The Stack
+
+--
+
+## to Ship and Delight
+
+---
+.left-column[
+# 2016 Top 5 Market Cap
+]
+
+.right-column[
+- ### Apple Inc
+- ### Alphabet (Google)
+- ### Microsoft
+- ### Amazon Inc
+- ### Facebook
+]
+
+---
+class: middle, center
+
+## Huge Investment/Reward Moving Up The Stack
+
+---
+
+# Microsoft
+
+- Cloud Services (Azure - revenue outpacing personal computing)
+
+- Recent purchase of GitHub ($7.5 billion)
+
+- 70 Full time Engineers contributing to Kubernetes
+
+- DevOps contributions including CloudBees
+
+
+---
+
+# Amazon
+
+- EC2 (VMs)
+
+- Elastic Container Service (including K8S)
+
+- AWS Lambda
+
+- Elastic Beanstalk
+
+- Fargate
+
+- Serverless Application Repository
+
+---
+class: middle, center
+
+# Abstractions Up the Stack
+
+--
+
+## To ship and scale applications
+
+---
+
+background-image: url(assets/image/value.jpg)
+
+---
+class: middle, left
+
+### _"Focus on building great applications, not babysitting hardware"_
+
+.right[-- Azure marketing page]
+
+---
+class: middle, left
+
+### _"Stop spending money on undifferentiated heavy lifting"_
+
+.right[-- Werner Vogels. CTO Amazon]
+
+---
+
+# Legacy (bottom of the stack)
+
+- Applications
+- Runtimes
+- Middleware
+- Security
+- Databases
+- Servers
+- Virtualization
+- Networking
+
+.footnote[__All__ managed by you]
+
+---
+
+## High Value Resources
+
+--
+
+Hard-to-hire, top performing software developers
+
+--
+
+## Performing Low Value Activity
+
+--
+
+- installing servers
+- network configuration
+- installing and configuring middleware, databases, etc.
+- manual, inconsistent security configuration
+- ongoing maintenance
+
+--
+- __Assorted Non-Value Added Waste__
+
+---
+
+background-image: url('assets/image/consequence-of-innefficiency.png')
+
+---
+
+# Infrastructure As A Service (IaaS)
+
+- Applications
+- Runtimes
+- Middleware
+- Security
+- Databases
+- .blue[Servers]
+- .blue[Virtualization]
+- .blue[Networking]
+
+.footnote[managed by you | .blue[automated/trivial/vendor]]
+
+---
+
+# Platform As A Service (PaaS)
+
+- Applications
+- .blue[Runtimes]
+- .blue[Middleware]
+- .blue[Security]
+- .blue[Databases]
+- .blue[Servers]
+- .blue[Virtualization]
+- .blue[Networking]
+
+.footnote[managed by you | .blue[automated/trivial/vendor]]
+
+---
+class: middle, left
+
+# Code* Centric
+
+.footnote[\* code means applications]
+
+--
+
+## To ship and delight faster
+
+---
+class: middle, left
+
+Here is my source code
+
+Run it on the cloud for me
+
+I do not care how
+
+
+.right[-- Onsi Fakhouri]
+
+---
+
+# Difficult Things
+
+- Scaling
+- Logging and Monitoring
+- Integration with other platform services
+- Security
+
+---
+class: middle, left
+layout: true
+
+---
+
+### __Focus__ on building features
+
+--
+
+instead of wrestling with deploy scripts
+
+---
+
+# Example App Platforms
+
+- Heroku
+
+- AWS
+
+- Google App Engine
+
+- Cloud Foundry
+
+- Open Shift
+
+- Kubernetes
+
+---
+
+# What about applications?
+
+---
+
+# Move up the Stack
+
+## Use a Platform
+
+--
+
+- Opinionated
+--
+
+- Consistent
+--
+
+- Convention over Configuration
+--
+
+- Cloud Native/12 Factor
+
+---
+
+# Example App Platforms
+
+- Spring Boot
+
+- Go Kit
+
+- Finagle
+
+- Dropwizard
+
+
+    </textarea>
+    <script src="assets/js/remark.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+     var slideshow = remark.create({
+       countIncrementalSlides: false,
+
+       navigation: {
+         click: false
+       }
+     });
+    </script>
+  </body>
+</html>
